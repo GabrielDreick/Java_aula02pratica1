@@ -9,28 +9,29 @@ import javax.swing.JOptionPane;
  * @author Gabriel Dreick
  */
 public class Aula02pratica1 {// CLASSE INSTANCIADORA
-    /*
+    
     public static void mostraTecnico(int matricula, String nome, String titulo){
         JOptionPane.showMessageDialog(
                 null, "Matricula: "+matricula+"\n"+
                 "Nome: "+nome+"\n"+
                 "Titulo: "+titulo, "Dados do Tecnico", JOptionPane.PLAIN_MESSAGE
         );
-    }*/
+    } 
+    
     
     
     public static void main(String[] args) {
-        System.out.println("meu Segundo codigo em java...\n\n");
+        System.out.println("meu primeiro codigo em java...\n\n");
         Tecnico tec = new Tecnico(1173, "Gabriel Dreick", "Analista de Sistemas");
         // EXIBINDO O TECNICO EM UMA CAIXA DE DIALOGO
-        // mostraTecnico(tec.matricula, tec.nome, tec.titulo);
-        
+        /*
         JOptionPane.showMessageDialog(
                 null, "Matricula: "+tec.matricula+"\n"+
                 "Nome: "+tec.nome+"\n"+
                 "Titulo: "+tec.titulo, "Dados do Tecnico", JOptionPane.PLAIN_MESSAGE
         );
-
+        */
+        mostraTecnico(tec.matricula, tec.nome, tec.titulo);
 
         /*
         // EXIBINDO O TECNICO
