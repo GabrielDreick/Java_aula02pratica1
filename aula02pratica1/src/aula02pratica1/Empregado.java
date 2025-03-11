@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package aula02pratica1;
 
+package aula02pratica1;
 /**
  *
- * @author aluno
+ * @author Gabriel Dreick
  */
-public class Empregado {
+public class Empregado {// CLASE CONSTRUTORA
     
+    int matricula;
+    String nome;
+    
+    // METODO CONSTRUTOR
+    public Empregado(int matricula, String nome){
+        this.matricula = matricula;
+        this.nome = nome;
+    }
 }
